@@ -1,0 +1,33 @@
+ questions for an OOP (Object-Oriented Programming) assignment in Java:
+
+### 1. Class and Object Basics
+- **Create a Class:**
+  - Define a class called `Car` with attributes like `make`, `model`, `year`, and `color`. Create an object of the `Car` class and initialize it with appropriate values. Display the details of the car.
+  
+- **Constructor Implementation:**
+  - Write a Java program to create a class `Person` with fields like `name`, `age`, and `address`. Implement a constructor to initialize these fields. Display the details of a person using a method.
+
+### 2. Inheritance and Polymorphism
+- **Single Inheritance:**
+  - Create a class `Employee` with attributes like `name` and `salary`. Derive a subclass `Manager` that adds an attribute `department`. Write a method to display the details of a manager, including the department they manage.
+
+- **Method Overloading and Overriding:**
+  - Write a program to demonstrate method overloading by creating multiple methods named `calculateArea` for calculating the area of different shapes (e.g., square, rectangle, circle). Also, demonstrate method overriding by creating a subclass `Square` that overrides a method from its parent class `Shape`.
+
+### 3. Encapsulation
+- **Data Hiding:**
+  - Create a class `BankAccount` with private fields for `accountNumber`, `balance`, and `accountHolderName`. Implement public methods to set and get these fields, ensuring proper validation for balance updates.
+
+### 4. Abstraction and Interfaces
+- **Abstract Class:**
+  - Define an abstract class `Animal` with an abstract method `makeSound()`. Create subclasses `Dog` and `Cat` that provide specific implementations of the `makeSound` method. Write a program to instantiate the subclasses and call the `makeSound` method.
+
+- **Interfaces:**
+  - Create an interface `Vehicle` with methods `start()` and `stop()`. Implement this interface in classes `Bike` and `Car`. Write a program that demonstrates the usage of these methods for both classes.
+
+
+### 7. Advanced OOP Concepts
+- **Multiple Inheritance through Interfaces:**
+  - Create two interfaces `Printable` and `Scannable`, each with a method. Create a class `PrinterScanner` that implements both interfaces and provide implementations for the methods.
+
+
